@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Separate Ringtone Volume</string>
+    <string name="instructions">If you mark as "Enabled", notifications will be muted and you will be able to set the desired ringtone volume.</string>
+    <string name="check_activated">Enabled</string>
+    <string name="volume">Ringtone volume</string>
+    <string name="vibrate">Vibrate when ringing</string>
+
+</resources>

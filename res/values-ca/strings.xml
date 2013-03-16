@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Volum de to separat</string>
+    <string name="instructions">Si marquem com "Habilitat", se silenciaran totes les notificacions i el volum de to serà el indicat a la barra de volum.</string>
+    <string name="check_activated">Habilitat</string>
+    <string name="volume">Volum de to</string>
+    <string name="vibrate">Vibrar en sonar</string>
+
+</resources>

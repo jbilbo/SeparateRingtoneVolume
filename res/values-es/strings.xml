@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Volumen de tono separado</string>
+    <string name="instructions">Si marcamos "Habilitado", se silenciarán todas las notificaciones y el volumen de las llamadas será el que se indique en la barra de volumen.</string>
+    <string name="check_activated">Habilitado</string>
+    <string name="volume">Volumen de tono</string>
+    <string name="vibrate">Vibrar al sonar</string>
+
+</resources>
