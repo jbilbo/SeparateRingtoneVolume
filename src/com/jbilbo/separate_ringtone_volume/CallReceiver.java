@@ -1,4 +1,4 @@
-package com.jbilbo;
+package com.jbilbo.separate_ringtone_volume;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
