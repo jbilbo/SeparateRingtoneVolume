@@ -47,7 +47,9 @@ public class Settings extends Activity {
 		checkEnabled = (CheckBox)findViewById(R.id.checkBox1);
 		volumeCallBar = (SeekBar)findViewById(R.id.seekBar1);
 		checkVibrate = (CheckBox)findViewById(R.id.checkBox2);
-		
+	}
+	
+	private void setControlListeners() {
 		checkEnabled.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 			@Override
 			public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -97,7 +99,6 @@ public class Settings extends Activity {
 				editor.commit();
 			}
 		});
-		
 	}
 	
 	private void setEnabledControls() {
@@ -126,6 +127,7 @@ public class Settings extends Activity {
 			setEnabledCallReceiver();
 		}
 		setEnabledControls();
+		setControlListeners();
 	}
 
 	@Override
