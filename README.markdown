@@ -5,6 +5,8 @@ Since Android 4.0, Google linked by default the ringtone and notifications volum
 
 This app allows you to mute the notifications and control the ringtone volume. It is impossible to do by API, so the *trick* is to register a `BroadcastReceiver` that *listen to* the phone state and just before the Ringing start it turns on the ringtone/notification volume and turn it back to mute after the call. There is no `Service` involved, just the BroadcastReceiver and it only wakes up just before the ringing, so there's no draining battery at all.
 
+[Download it from Google Play](https://play.google.com/store/apps/details?id=com.jbilbo.separate_ringtone_volume)
+
 Credits
 -------
 Author: Jonathan Hernandez
